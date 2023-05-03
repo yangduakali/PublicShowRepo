@@ -1,0 +1,13 @@
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\bin\Release\netstandard2.1\UnityExt.deps.json
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\bin\Release\netstandard2.1\UnityExt.dll
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\bin\Release\netstandard2.1\UnityExt.pdb
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\bin\Release\netstandard2.1\UnityEngine.dll
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\bin\Release\netstandard2.1\UnityEngine.xml
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.csproj.AssemblyReference.cache
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.AssemblyInfoInputs.cache
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.AssemblyInfo.cs
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.csproj.CoreCompileInputs.cache
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.csproj.CopyComplete
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.dll
+C:\Users\yangd\Projects\Lib\UnityLib\UnityExt\obj\Release\netstandard2.1\UnityExt.pdb

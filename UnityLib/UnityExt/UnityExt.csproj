@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\audio_cue.png" />
+    <None Remove="Resources\Lok.uxml" />
+    <EmbeddedResource Include="Resources\Lok.uxml" />
+  </ItemGroup>
+
+  <Target Name="CopyFile" AfterTargets="CoreBuild">
+    <Copy SourceFiles="$(OutputPath)\UnityExt.dll" DestinationFolder="$(SolutionDir)" ContinueOnError="true" />
+    <Copy SourceFiles="$(OutputPath)\UnityExt.dll" DestinationFolder="$(SolutionDir)..\..\Unity\UnityExt\Assets\Plugins\UnityExt\Runtime" ContinueOnError="true" />
+    <Copy SourceFiles="$(OutputPath)\UnityExt.dll" DestinationFolder="$(SolutionDir)..\..\Unity\Space Ship Shooter\Assets\Plugins\UnityExt\Runtime" ContinueOnError="true" />
+  </Target>
+  
+</Project>
